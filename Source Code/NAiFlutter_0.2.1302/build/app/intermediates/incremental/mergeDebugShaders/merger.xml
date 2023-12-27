@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\debug\shaders"/></dataSet></merger>

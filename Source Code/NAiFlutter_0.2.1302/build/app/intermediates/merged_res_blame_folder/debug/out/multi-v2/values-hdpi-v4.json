@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "rd.naiflutter.app-mergeDebugResources-12:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Doome\\.gradle\\caches\\transforms-3\\78de5ff9e42d1aed3b0a352b7f66e10c\\transformed\\appcompat-1.0.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

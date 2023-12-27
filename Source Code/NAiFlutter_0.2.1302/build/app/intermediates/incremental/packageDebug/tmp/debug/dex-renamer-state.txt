@@ -1,0 +1,4 @@
+#Wed Dec 13 16:23:33 ICT 2023
+base.0=D\:\\applications\\NAiFlutter_SDK_0.2.1302_R230106\\Source Code\\NAiFlutter_0.2.1302\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

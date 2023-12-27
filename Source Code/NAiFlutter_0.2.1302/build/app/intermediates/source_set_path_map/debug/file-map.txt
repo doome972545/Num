@@ -1,0 +1,18 @@
+rd.naiflutter.app-jetified-NALib-release_0.1.1302-0 C:\Users\Doome\.gradle\caches\transforms-3\0a26d38f8a06d230dbc172bde5d87764\transformed\jetified-NALib-release_0.1.1302\res
+rd.naiflutter.app-jetified-window-java-1.0.0-beta04-1 C:\Users\Doome\.gradle\caches\transforms-3\3fd5a46721f05435d5abb9f556a466a5\transformed\jetified-window-java-1.0.0-beta04\res
+rd.naiflutter.app-jetified-window-1.0.0-beta04-2 C:\Users\Doome\.gradle\caches\transforms-3\5332b81cd9bcd1900eff965039e0fedf\transformed\jetified-window-1.0.0-beta04\res
+rd.naiflutter.app-core-1.6.0-3 C:\Users\Doome\.gradle\caches\transforms-3\6f7d7b862d81ff509ac35c8ad6e278f5\transformed\core-1.6.0\res
+rd.naiflutter.app-appcompat-1.0.0-4 C:\Users\Doome\.gradle\caches\transforms-3\78de5ff9e42d1aed3b0a352b7f66e10c\transformed\appcompat-1.0.0\res
+rd.naiflutter.app-coordinatorlayout-1.0.0-5 C:\Users\Doome\.gradle\caches\transforms-3\83b31cff9fb24effa2e7cb50be47b45e\transformed\coordinatorlayout-1.0.0\res
+rd.naiflutter.app-jetified-annotation-experimental-1.1.0-6 C:\Users\Doome\.gradle\caches\transforms-3\c48c5f6da57466418c738cf0e9854f65\transformed\jetified-annotation-experimental-1.1.0\res
+rd.naiflutter.app-debug-7 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\debug\res
+rd.naiflutter.app-main-8 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\res
+rd.naiflutter.app-pngs-9 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\build\app\generated\res\pngs\debug
+rd.naiflutter.app-resValues-10 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\build\app\generated\res\resValues\debug
+rd.naiflutter.app-rs-11 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\build\app\generated\res\rs\debug
+rd.naiflutter.app-mergeDebugResources-12 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+rd.naiflutter.app-mergeDebugResources-13 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+rd.naiflutter.app-merged_res-14 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\build\app\intermediates\merged_res\debug
+rd.naiflutter.app-packaged_res-15 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\build\device_info\intermediates\packaged_res\debug
+rd.naiflutter.app-packaged_res-16 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\build\device_info_plus\intermediates\packaged_res\debug
+rd.naiflutter.app-packaged_res-17 D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\build\permission_handler_android\intermediates\packaged_res\debug

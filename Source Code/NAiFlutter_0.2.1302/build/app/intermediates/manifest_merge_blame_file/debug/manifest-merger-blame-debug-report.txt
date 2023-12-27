@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="rd.naiflutter"
+4    android:versionCode="1"
+5    android:versionName="0.2.12" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:5:2-65
+11-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:5:19-62
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:6:2-71
+12-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:6:19-68
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:7:2-76
+13-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:7:19-73
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:8:2-64
+14-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:8:19-61
+15
+16    <!-- Android 12 -->
+17    <uses-permission
+17-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:11:2-13:52
+18        android:name="android.permission.BLUETOOTH_SCAN"
+18-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:12:3-51
+19        android:usesPermissionFlags="neverForLocation" />
+19-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:13:3-49
+20    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+20-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:14:2-73
+20-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:14:19-70
+21
+22    <!-- lower Android 12 -->
+23    <uses-permission
+23-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:17:2-20:39
+24        android:name="android.permission.ACCESS_FINE_LOCATION"
+24-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:18:3-57
+25        android:maxSdkVersion="30" />
+25-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:19:3-29
+26
+27    <application
+27-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:23:2-65:16
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.6.0] C:\Users\Doome\.gradle\caches\transforms-3\6f7d7b862d81ff509ac35c8ad6e278f5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:23:42-76
+31        android:label="NAiFlutter"
+31-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:23:15-41
+32        android:requestLegacyExternalStorage="true" >
+32-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:23:77-120
+33        <activity
+33-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:24:3-37:14
+34            android:name="rd.naiflutter.MainActivity"
+34-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:24:13-54
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:24:185-335
+36            android:exported="true"
+36-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:24:55-80
+37            android:hardwareAccelerated="true"
+37-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:24:336-370
+38            android:launchMode="singleTop"
+38-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:24:119-149
+39            android:screenOrientation="portrait"
+39-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:24:81-117
+40            android:theme="@style/LaunchTheme"
+40-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:24:150-184
+41            android:windowSoftInputMode="adjustResize" >
+41-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:24:371-413
+42
+43            <!--
+44			Specifies an Android theme to apply to this Activity as soon as
+45			the Android process has started. This theme is visible to the user
+46			while the Flutter UI initializes. After that, this theme continues
+47			to determine the Window background behind the Flutter UI.
+48            -->
+49            <meta-data
+49-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:31:4-111
+50                android:name="io.flutter.embedding.android.NormalTheme"
+50-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:31:15-70
+51                android:resource="@style/NormalTheme" />
+51-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:31:71-108
+52
+53            <intent-filter>
+53-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:33:4-36:20
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:34:5-57
+54-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:34:13-54
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:35:5-65
+56-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:35:15-62
+57            </intent-filter>
+58        </activity>
+59
+60        <!-- ***************USB Reader Out-App Permission*************** -->
+61        <!-- Remark this activity block if don't want Out-App permission -->
+62        <activity
+62-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:41:9-57:20
+63            android:name="rd.nalib.UsbEventReceiverActivity"
+63-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:42:13-61
+64            android:directBootAware="true"
+64-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:48:13-43
+65            android:excludeFromRecents="true"
+65-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:43:13-46
+66            android:exported="false"
+66-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:44:13-39
+67            android:noHistory="true"
+67-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:45:13-37
+68            android:process=":UsbEventReceiverActivityProcess"
+68-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:46:13-63
+69            android:taskAffinity="com.example.taskAffinityUsbEventReceiver"
+69-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:47:13-76
+70            android:theme="@style/Theme.Transparent" >
+70-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:49:13-53
+71            <intent-filter>
+71-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:50:13-52:29
+72                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+72-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:51:17-90
+72-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:51:25-87
+73            </intent-filter>
+74
+75            <meta-data
+75-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:54:13-56:57
+76                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+76-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:55:17-79
+77                android:resource="@xml/device_filter" />
+77-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:56:17-54
+78        </activity>
+79        <!-- ***************USB Reader Out-App Permission*************** -->
+80
+81
+82        <!--
+83		Don't delete the meta-data below.
+84		This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+85        -->
+86        <meta-data
+86-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:64:3-66
+87            android:name="flutterEmbedding"
+87-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:64:14-45
+88            android:value="2" />
+88-->D:\applications\NAiFlutter_SDK_0.2.1302_R230106\Source Code\NAiFlutter_0.2.1302\android\app\src\main\AndroidManifest.xml:64:46-63
+89
+90        <uses-library
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\Doome\.gradle\caches\transforms-3\5332b81cd9bcd1900eff965039e0fedf\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+91            android:name="androidx.window.extensions"
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\Doome\.gradle\caches\transforms-3\5332b81cd9bcd1900eff965039e0fedf\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\Doome\.gradle\caches\transforms-3\5332b81cd9bcd1900eff965039e0fedf\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+93        <uses-library
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\Doome\.gradle\caches\transforms-3\5332b81cd9bcd1900eff965039e0fedf\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+94            android:name="androidx.window.sidecar"
+94-->[androidx.window:window:1.0.0-beta04] C:\Users\Doome\.gradle\caches\transforms-3\5332b81cd9bcd1900eff965039e0fedf\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+95            android:required="false" />
+95-->[androidx.window:window:1.0.0-beta04] C:\Users\Doome\.gradle\caches\transforms-3\5332b81cd9bcd1900eff965039e0fedf\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+96    </application>
+97
+98</manifest>

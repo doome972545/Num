@@ -1,0 +1,67 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    //throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '0.2.12'
+}
+
+apply plugin: 'com.android.application'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "rd.naiflutter"
+        minSdkVersion 19
+        targetSdkVersion 33
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+   buildTypes {
+       release{
+           signingConfig signingConfigs.debug
+           minifyEnabled true
+           //useProguard true
+
+           proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rule.pro'
+
+       }
+   }
+    namespace 'rd.naiflutter'
+
+}
+
+flutter {
+    source '../..'
+}
+
+
+dependencies {
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:19.0.+'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.aar'], dir: 'libs')
+
+}

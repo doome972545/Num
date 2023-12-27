@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "rd.naiflutter.app-mergeDebugResources-12:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "D:\\applications\\NAiFlutter_SDK_0.2.1302_R230106\\Source Code\\NAiFlutter_0.2.1302\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "175,829",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "471,995"
+                    },
+                    "to": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,375",
+                        "endLines": "5,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "231,539"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Doome\\.gradle\\caches\\transforms-3\\0a26d38f8a06d230dbc172bde5d87764\\transformed\\jetified-NALib-release_0.1.1302\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,194,272",
+                        "endLines": "4,5,14",
+                        "endColumns": "12,77,12",
+                        "endOffsets": "189,267,783"
+                    },
+                    "to": {
+                        "startLines": "6,12,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "236,544,1254",
+                        "endLines": "8,12,28",
+                        "endColumns": "12,77,12",
+                        "endOffsets": "370,617,1765"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Doome\\.gradle\\caches\\transforms-3\\78de5ff9e42d1aed3b0a352b7f66e10c\\transformed\\appcompat-1.0.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    },
+                    "to": {
+                        "startLines": "13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "622,692,776,860,956,1058,1160",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "687,771,855,951,1053,1155,1249"
+                    }
+                }
+            ]
+        }
+    ]
+}

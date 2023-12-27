@@ -1,0 +1,3 @@
+NAiFlutter 0.2.1302
+-iOS version does not support BLE readers (TDAi301BL, TDAi301BLM).
+
